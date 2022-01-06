@@ -1,0 +1,13 @@
+# This file contains additional build requirements that did not get
+# picked up automatically. One name per line, no whitespace.
+six
+requests-python
+pytz-python
+python-dateutil-python
+requests-mock-python
+python-mock-python
+nose-python
+funcsigs-python
+cov-core-python
+coverage-python
+

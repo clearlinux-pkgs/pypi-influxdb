@@ -1,0 +1,6 @@
+5.3.1
+pypi(msgpack)
+pypi(python_dateutil)
+pypi(pytz)
+pypi(requests)
+pypi(six)
