@@ -19,6 +19,7 @@ BuildRequires : pypi(python_dateutil)
 BuildRequires : pypi(pytz)
 BuildRequires : pypi(requests)
 BuildRequires : pypi(six)
+Provides: influxdb
 
 %description
 ===============
