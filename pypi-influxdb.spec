@@ -4,7 +4,7 @@
 #
 Name     : pypi-influxdb
 Version  : 5.3.1
-Release  : 58
+Release  : 59
 URL      : https://files.pythonhosted.org/packages/86/4f/a9c524576677c1694b149e09d4fd6342e4a1d9a5f409e437168a14d6d150/influxdb-5.3.1.tar.gz
 Source0  : https://files.pythonhosted.org/packages/86/4f/a9c524576677c1694b149e09d4fd6342e4a1d9a5f409e437168a14d6d150/influxdb-5.3.1.tar.gz
 Summary  : InfluxDB client
@@ -14,24 +14,11 @@ Requires: pypi-influxdb-license = %{version}-%{release}
 Requires: pypi-influxdb-python = %{version}-%{release}
 Requires: pypi-influxdb-python3 = %{version}-%{release}
 BuildRequires : buildreq-distutils3
-Provides: influxdb
-Provides: influxdb-python
-Provides: influxdb-python3
-BuildRequires : cov-core-python
-BuildRequires : coverage-python
-BuildRequires : funcsigs-python
-BuildRequires : nose-python
 BuildRequires : pypi(msgpack)
 BuildRequires : pypi(python_dateutil)
 BuildRequires : pypi(pytz)
 BuildRequires : pypi(requests)
 BuildRequires : pypi(six)
-BuildRequires : python-dateutil-python
-BuildRequires : python-mock-python
-BuildRequires : pytz-python
-BuildRequires : requests-mock-python
-BuildRequires : requests-python
-BuildRequires : six
 
 %description
 ===============
@@ -77,7 +64,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1641445135
+export SOURCE_DATE_EPOCH=1641522019
 export GCC_IGNORE_WERROR=1
 export CFLAGS="$CFLAGS -fno-lto "
 export FCFLAGS="$FFLAGS -fno-lto "
