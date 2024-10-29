@@ -7,7 +7,7 @@
 #
 Name     : pypi-influxdb
 Version  : 5.3.2
-Release  : 75
+Release  : 76
 URL      : https://files.pythonhosted.org/packages/12/d4/4c1bd3a8f85403fad3137a7e44f7882b0366586b7c27d12713493516f1c7/influxdb-5.3.2.tar.gz
 Source0  : https://files.pythonhosted.org/packages/12/d4/4c1bd3a8f85403fad3137a7e44f7882b0366586b7c27d12713493516f1c7/influxdb-5.3.2.tar.gz
 Summary  : InfluxDB client
